@@ -17,7 +17,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: Check Build Environment
+      run: |
+        sw_vers
+        xcode-select -p
+        xcodebuild -version
+        xcrun simctl list devices
+
     - name: Build
-      run: set -o pipefail && swift build -v | xcpretty
-    - name: Run tests
-      run: set -o pipefail && swift test -v | xcpretty
+      run: make build
+    - name: Run Tests
+      run: make test
