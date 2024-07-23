@@ -1,5 +1,6 @@
 # CocoaAsyncSocket
-[![Build Status](https://travis-ci.org/robbiehanson/CocoaAsyncSocket.svg?branch=master)](https://travis-ci.org/robbiehanson/CocoaAsyncSocket)
+
+[![CI Build Status](https://github.com/mingchen/CocoaAsyncSocket/actions/workflows/CI.yml/badge.svg)](https://github.com/mingchen/CocoaAsyncSocket/actions/workflows/CI.yml)
 [![Platform](http://img.shields.io/cocoapods/p/CocoaAsyncSocket.svg?style=flat)](http://cocoapods.org/?q=CocoaAsyncSocket)
 [![license Public Domain](https://img.shields.io/badge/license-Public%20Domain-orange.svg?style=flat)](https://en.wikipedia.org/wiki/Public_domain)
 
